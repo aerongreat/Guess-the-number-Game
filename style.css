@@ -1,0 +1,37 @@
+
+div{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+border: 2px solid black;
+padding: 100px;
+}
+label{
+font-size: 2em;
+font-weight: 600;
+}
+button{
+margin-top:15px;
+font-size: 1.5em;
+font-weight: 400;
+border: none;
+border-radius: 5px;
+background-color: black;
+color: whitesmoke;
+transition: 0.3s;
+padding: 5px 40px;
+}
+
+button:hover{
+background-color: dimgrey;
+}
+input{
+padding: 15px;
+}
+#result{
+color: green;
+font-size: 1.2em;
+font-weight: 700;
+font-family:sans-serif;
+}
